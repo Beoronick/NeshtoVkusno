@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакти | Кулинарен съюз „Нещо вкусно“</title>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/partial/contacts.css" />
+
+    <script defer src="./js/navbar.js"></script>
+    <script defer src="./js/formValidation.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="./index.html" class="navbar-wrapper">
+          <span class="navbar-text">Нещо вкусно</span></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="navbar-menu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul id="navbar-menu" class="navbar-nav">
+          <li>
+            <a class="navbar-link" href="./index.html">Начало</a>
+          </li>
+          <li>
+            <div class="dropdown">
+              <a
+                class="dropdown-toggle"
+                href="javascript:;"
+                data-toggle="collapse"
+                data-target="dropdown-menu"
+                >Селекция</a
+              >
+
+              <ul id="dropdown-menu" class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./selections.html#starter"
+                    >Предястия</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./selections.html#main-course"
+                    >Основни ястия</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./selections.html#dessert"
+                    >Десерти</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="navbar-link active" href="javascript:;">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="heading-wrapper">
+        <h1 class="heading">Контакти</h1>
+      </div>
+
+      <div class="about">
+        <article class="worktime">
+          <h2 class="info-heading">Свържете се с нас:</h2>
+          <form id="reservations" class="form">
+            <div class="form-group">
+              <label for="names">Име и фамилия</label>
+              <input class="form-control" id="names" type="text" name="names" />
+              <p data-validation-for="names"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="telNumber">Мобилен номер</label>
+              <input
+                class="form-control"
+                id="telNumber"
+                type="tel"
+                name="telNumber"
+              />
+              <p data-validation-for="telNumber"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Имейл за обратна връзка</label>
+              <input
+                class="form-control"
+                id="email"
+                type="email"
+                name="email"
+              />
+              <p data-validation-for="email"></p>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-secondary" type="reset">Изчисти</button>
+              <button class="btn btn-primary" type="submit">Изпрати</button>
+            </div>
+          </form>
+        </article>
+
+        <address class="row">
+          <div class="info-wrapper">
+            <span class="info-heading">Телефон</span>
+            <a href="tel:0877123789">0877123789</a>
+          </div>
+
+          <div class="info-wrapper">
+            <span class="info-heading">Адрес</span>
+            <span>гр. Велико Търново, ул. „Димитър Благоев“ №13</span>
+            <iframe
+              id="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.6355847639359!2d25.607420529237135!3d43.07209217836697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a926767ff28079%3A0xe6da916a66c1af66!2sul.%20%22Dimitar%20Blagoev%22%2013%2C%205008%20g.k.%20Buzludzha%2C%20Veliko%20Tarnovo!5e0!3m2!1sen!2sbg!4v1639924796547!5m2!1sen!2sbg"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+
+          <div class="info-wrapper">
+            <span class="info-heading">Имейл</span>
+            <a href="mailto:feedback@neshtovkusno.bg"
+              >feedback@neshtovkusno.bg</a
+            >
+          </div>
+        </address>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div>
+        <h3>Намерете ни в социалните мрежи</h3>
+
+        <ul class="icon-container">
+          <li>
+            <a href="https://www.facebook.com"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <p class="credits">Александър Рашков, Даниел Йорданов 2023</p>
+    </footer>
+  </body>
+</html>

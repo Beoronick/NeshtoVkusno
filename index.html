@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кулинарен съюз „Нещо вкусно“</title>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/partial/index.css" />
+
+    <script defer src="./js/navbar.js"></script>
+    <script defer src="./js/carousel.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="javascript:;" class="navbar-wrapper">
+          <span class="navbar-text">Нещо вкусно</span></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="navbar-menu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul id="navbar-menu" class="navbar-nav">
+          <li>
+            <a class="navbar-link active" href="javascript:;">Начало</a>
+          </li>
+          <li>
+            <div class="dropdown">
+              <a
+                class="dropdown-toggle"
+                href="javascript:;"
+                data-toggle="collapse"
+                data-target="dropdown-menu"
+                >Селекция</a
+              >
+
+              <ul id="dropdown-menu" class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./selections.html#starter"
+                    >Предястия</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./selections.html#main-course"
+                    >Основни ястия</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./selections.html#dessert"
+                    >Десерти</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="navbar-link" href="./contacts.html">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="heading-wrapper">
+        <h1 class="heading">
+          Кулинарен съюз <span class="nowrap">„Нещо вкусно“</span>
+        </h1>
+      </div>
+
+      <div class="carousel" data-slide-duration="10000">
+        <div class="carousel-slide active">
+          <img
+            class="carousel-slide-img"
+            src="./images/restaurant.jpg"
+            alt="Светът на кулинарията"
+          />
+          <h2 class="carousel-slide-heading">Светът на кулинарията</h2>
+          <p class="carousel-slide-text">
+            Запознайте се с вкусът на кухни в световен мащаб и се отдайте на
+            уникални кулинарни изживявания от най-високо качество.
+          </p>
+        </div>
+
+        <div class="carousel-slide">
+          <img
+            class="carousel-slide-img"
+            src="./images/kitchen.jpg"
+            alt="Професионалисти и любители"
+          />
+          <h2 class="carousel-slide-heading">Професионалисти и любители</h2>
+          <p class="carousel-slide-text">
+            Нашите селекции са подбрани от гласове с еднаква тежест - било то
+            майстори в сферата или просто хора, наслаждавайки се на добрата
+            кухня.
+          </p>
+        </div>
+
+        <div class="carousel-slide">
+          <img
+            class="carousel-slide-img"
+            src="./images/food.jpg"
+            alt="Творчество в кухнята"
+          />
+          <h2 class="carousel-slide-heading">Творчество в кухнята</h2>
+          <p class="carousel-slide-text">
+            Допринесете към обогатяването на кулинарния небосвод с предложения,
+            останали в съзнанието Ви или с ваши лични ястия, достойни да бъдат
+            споделени и затвърдени.
+          </p>
+        </div>
+
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0"></li>
+          <li data-slide-to="1"></li>
+          <li data-slide-to="2"></li>
+        </ol>
+      </div>
+
+      <article class="about">
+        <h2 class="part-heading">За нас</h2>
+        <p class="about-text">
+          Създадена през 2016 година, "Нещо вкусно" е проект на няколко любители
+          на кулинарията със скромни цели - съвместното запознаване с нови
+          кулинарни изживявания. С течение на времето и разширяването на кръга,
+          организацията се разраства и си поставя за цел не само изучаването на
+          многобройните кухни от света, а и тяхното представяне в България.
+          Ситуиран в старата столица, Велико Търново, нашият основен щаб е
+          отправна точка за световните вкусове, където можете да изпробвате
+          подбраните от нас ястия за определен период на годината или конкретно
+          събитие/сезон.
+        </p>
+      </article>
+
+      <article class="about">
+        <h2 class="part-heading">Нашите партньори</h2>
+        <p class="about-text">
+          "Нещо вкусно" гордо може да заяви многообразният си диапазон от
+          партньори, съгласили се да станат част от колектива или да допринесат
+          към осъществяването на нашите цели. Само за последните 3 години, можем
+          да се похвалим с цели 120 нови ресторанти, сред които присъстват и
+          такива с награди "Мишелин", включили се към нашата кауза. С тях нашата
+          обща бройка партньори се разширява до повече от 500. Подбирайки само
+          най-добрите, било то хора с години опит в сферата, или нови и
+          изграващи таланти, нашето разнообразие от предложения и вкусове идват
+          директно от тези, които обичат това което правят.
+        </p>
+      </article>
+
+      <article class="about">
+        <h2 class="part-heading">Стани част от нас</h2>
+        <p class="about-text">
+          Притежаваш свой собствен кулинарен кът или си част от ресторант с
+          талантливи колеги, готови да обострят своите умения и да научат повече
+          за света на кулинарията? Можеш да станеш част от нас като ни
+          представиш най-доброто от себе си в кухнята, затвърждавайки рецептите
+          си в нашите селекции, или просто допринесеш с твои лични вкусни
+          преживявания, които смяташ, че заслужават да присъстват при нас и
+          трябва да бъдат показани на България.
+        </p>
+      </article>
+
+      <section class="centered">
+        <h2 class="part-heading">Нашите селекции за 2023</h2>
+
+        <div class="card-container">
+          <article class="card">
+            <a class="card-link" href="./selections.html#starter">
+              <img class="card-bg" src="./images/salad.jpg" alt="Салата" />
+              <h3 class="card-heading">Предястия</h3>
+            </a>
+          </article>
+
+          <article class="card">
+            <a class="card-link" href="./selections.html#main-course">
+              <img
+                class="card-bg"
+                src="./images/main_dish.jpg"
+                alt="Основно ястие"
+              />
+              <h3 class="card-heading">Основни ястия</h3>
+            </a>
+          </article>
+
+          <article class="card">
+            <a class="card-link" href="./selections.html#dessert">
+              <img class="card-bg" src="./images/dessert.jpg" alt="Десерт" />
+              <h3 class="card-heading">Десерти</h3>
+            </a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div>
+        <h3>Намерете ни в социалните мрежи</h3>
+
+        <ul class="icon-container">
+          <li>
+            <a href="https://www.facebook.com"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <p class="credits">Александър Рашков, Даниел Йорданов 2023</p>
+    </footer>
+  </body>
+</html>

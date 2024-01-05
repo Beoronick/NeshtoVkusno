@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Селекция | „Нещо вкусно“</title>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/partial/selections.css" />
+
+    <script defer src="./js/navbar.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="./index.html" class="navbar-wrapper">
+          <span class="navbar-text">Нещо вкусно</span></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="navbar-menu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul id="navbar-menu" class="navbar-nav">
+          <li>
+            <a class="navbar-link" href="./index.html">Начало</a>
+          </li>
+          <li>
+            <div class="dropdown">
+              <a
+                class="dropdown-toggle"
+                href="javascript:;"
+                data-toggle="collapse"
+                data-target="dropdown-menu"
+                >Селекция</a
+              >
+
+              <ul id="dropdown-menu" class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#starter">Предястия</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#main-course">Основни ястия</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#dessert">Десерти</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="navbar-link" href="./contacts.html">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="heading-wrapper">
+        <h1 class="heading">Селекция за 2023</h1>
+      </div>
+
+      <div class="row centered">
+        <aside class="categories">
+          <h2>Категории</h2>
+
+          <ul class="selections">
+            <li>
+              <a href="#starter">Предястия</a>
+            </li>
+
+            <li>
+              <a href="#main-course">Основни ястия</a>
+            </li>
+
+            <li>
+              <a href="#dessert">Десерти</a>
+            </li>
+          </ul>
+        </aside>
+
+        <div class="selections-wrapper">
+          <section id="starter">
+            <h2>Предястия</h2>
+            <div class="card-wrapper">
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/slices_with_onion_and_mushrooms.jpg"
+                  alt="Хрупкави филийки с праз и гъби"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Хрупкави филийки с праз и гъби</h3>
+                  <p class="card-description">
+                    ръжен хляб, праз, печурки, чесън, мащерка, зехтин, лют
+                    червен пипер
+                  </p>
+                  <span class="card-description">Произход: Румъния</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/yakitori.jpg"
+                  alt="Пиле якитори"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Пиле якитори</h3>
+                  <p class="card-description">
+                    пилешка пържола от бут, пресен лук, чесън, тогараши, соев
+                    сос, оризово вино
+                  </p>
+                  <span class="card-description">Произход: Япония</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/roasted_camembert.jpg"
+                  alt="Запечено сирене „Камамбер“"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Запечено сирене „Камамбер“</h3>
+                  <p class="card-description">камамбер, мащерка, чесън</p>
+                  <span class="card-description">Произход: Франция</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/mozarella_pane.jpg"
+                  alt="Панирана моцарела с доматен сос"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Панирана моцарела с доматен сос</h3>
+                  <p class="card-description">
+                    моцарела, мащерка, яйце, домати, лук
+                  </p>
+                  <span class="card-description">Произход: Италия</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/roasted_wings.jpg"
+                  alt="Пилешки крила на фурна със „Заатар“"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">
+                    Пилешки крила на фурна със „Заатар“
+                  </h3>
+                  <p class="card-description">
+                    пилешки крилца, подправка „Заатар“, кисело мляко, майонеза
+                  </p>
+                  <span class="card-description">Произход: Иран</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/eggplant.jpg"
+                  alt="Разядка от патладжани"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Разядка от патладжани</h3>
+                  <p class="card-description">
+                    патладжан, чесън, люта чушка, магданоз, цедено кисело мляко
+                  </p>
+                  <span class="card-description">Произход: България</span>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section id="main-course">
+            <h2>Основни ястия</h2>
+            <div class="card-wrapper">
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/fish.jpg"
+                  alt="Риба плакия"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Риба плакия</h3>
+                  <p class="card-description">
+                    скумрия, домати, маслини, лук, печена чушка, риган, зехтин,
+                    лимон
+                  </p>
+                  <span class="card-description">Произход: Гърция</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/noodles_with_pork.jpg"
+                  alt="Нудли със свинско"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Нудли със свинско</h3>
+                  <p class="card-description">
+                    свински врат, пшенични нудли, гъби шийтаке, джинджифил,
+                    червени люти чушки, чесън, соев сос, оризов оцет
+                  </p>
+                  <span class="card-description">Произход: Китай</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/pork_steak.jpg"
+                  alt="Свински пържоли на скара"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Свинска пържола на скара</h3>
+                  <p class="card-description">
+                    свинска вратна пържола, босилек, магданоз, риган, чесън,
+                    сушени домати, каперси, лимон, зехтин
+                  </p>
+                  <span class="card-description">Произход: Сърбия</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/kavarma.jpg"
+                  alt="Дроб кавърма"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Дроб кавърма</h3>
+                  <p class="card-description">
+                    телешки дроб, печурки, лук, чесън, люта чушка
+                  </p>
+                  <span class="card-description">Произход: Турция</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/risotto_with_calamari.jpg"
+                  alt="Ризото с калмари и тиквички"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Ризото с калмари и тиквички</h3>
+                  <p class="card-description">
+                    калмари, ориз „Балдо“, бейби тиквички, чесън, бекон, бяло
+                    вино, краве масло, розмарин, пресен лук
+                  </p>
+                  <span class="card-description">Произход: Италия</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/stuffed_pumpkins.jpg"
+                  alt="Пълнени тиквички"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Пълнени тиквички</h3>
+                  <p class="card-description">
+                    сирене „Грана падано“, галета, бяло вино, яйце, морков,
+                    мащерка, дафинов лист, зехтин
+                  </p>
+                  <span class="card-description">Произход: България</span>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section id="dessert">
+            <h2>Десерти</h2>
+            <div class="card-wrapper">
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/pumpkin_and_chocolate.jpg"
+                  alt="Десерт с тиква и шоколад"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Десерт с тиква и шоколад</h3>
+                  <p class="card-description">
+                    крем сирене, пудра захар, канела, тиква, шоколадов кувертюр
+                  </p>
+                  <span class="card-description">Произход: Унгария</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/chocolate_orange_cake.jpg"
+                  alt="Шоколадова  мус торта с портокалов чипс"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">
+                    Шоколадова мус торта с портокалов чипс
+                  </h3>
+                  <p class="card-description">
+                    портокал, орехи, пудра захар, черен шоколад
+                  </p>
+                  <span class="card-description">Произход: Испания</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/coconut_dessert.jpg"
+                  alt="Кокосов сладкиш"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Кокосов сладкиш</h3>
+                  <p class="card-description">
+                    кокосов орех, краве масло, захар, прясно мляко
+                  </p>
+                  <span class="card-description">Произход: Куба</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/apple_cake.jpg"
+                  alt="Постна ябълкова торта"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Постна ябълкова торта</h3>
+                  <p class="card-description">
+                    орехи, сушени ябълки, фурми, макадамия, кашу, какаово масло,
+                    мед
+                  </p>
+                  <span class="card-description">Произход: Грузия</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/white_chocolate_mouse.jpg"
+                  alt="Мус от бял шоколад с кисело мляко и дюли"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">
+                    Мус от бял шоколад с кисело мляко и дюли
+                  </h3>
+                  <p class="card-description">
+                    бял шоколад, сметана, кисело мляко, дюли, захар, лимон
+                  </p>
+                  <span class="card-description">Произход: България</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  class="card-img"
+                  src="./images/menu/blueberry_tayfel.jpg"
+                  alt="Боровинков трайфъл"
+                />
+                <div class="card-content">
+                  <h3 class="card-heading">Боровинков трайфъл</h3>
+                  <p class="card-description">
+                    боровинки, захар, бренди, лимон, крем сирене, пудра захар,
+                    сметана, лимонов сок
+                  </p>
+                  <span class="card-description">Произход: Франция</span>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div>
+        <h3>Намерете ни в социалните мрежи</h3>
+
+        <ul class="icon-container">
+          <li>
+            <a href="https://www.facebook.com"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <p class="credits">Александър Рашков, Даниел Йорданов 2023</p>
+    </footer>
+  </body>
+</html>
